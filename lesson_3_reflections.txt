@@ -13,3 +13,21 @@ It's nice to know when changes are made to your local repository, otherwise
 looking at your git log might confuse you if you haven't explicitly run a
 git pull. Also, as it is effectively your private copy of the repository, it's
 nice to be in control of it, and pull the latest changes when you need to.
+
+
+Describe the differences between forks, clones and branches. When would you
+use one instead of another?
+
+Forks and clones are essentially the same thing. Forks are exclusive to
+GitHub and are used to clone another persons repository to your account while
+giving recognition to the original owner. A clone takes a full copy of a
+repository either from GitHub to your local machine, or from your machine back
+to your machine. You would use a fork when taking a copy of someones work from
+GitHub, and a clone in every other situation when you wanted a copy of a
+repository. A branch is used when you want to develop something for that
+project while keeping a working copy of the project at the same time. For
+example, for your changes to make any sense, multiple commits may be required
+in order to successfully make all changes you want to make. You may be unsure
+on how well a new feature of your project will work, and decide to make a new
+branch in which you would commit several changes, which didn't affect the
+original version until you were ready to merge the changes in.
