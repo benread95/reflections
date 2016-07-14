@@ -40,3 +40,20 @@ If you are about to be offline or without internet access for a while but
 still want to work on your project, for example if you're about to get on a
 plane or a train etc, then its useful to still have access to the last known
 status of the online repository.
+
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+Without Git or GitHub, you could collaborate with other people using email or
+other sharing applications such as DropBox. You could use other diff tools
+such as the diff command on the terminal to merge files together. Without the
+timestamps automatically added on commits on Git, you would have to manually
+add date and times to each file to make sure you knew what changes were done
+at what times, and which changes were intended to be the latest. It would be a
+lot harder to manage the different files without git as it could get confusing
+for larger projects, especially if more than 2 people were working together,
+or if they didn't live/work near each other. It could be easier to get copies
+of a project though, although cloning a repository and checking out master
+isn't too difficult and time consuming, emailing or otherwise sending a zip
+file of the whole project could be easier or faster.
