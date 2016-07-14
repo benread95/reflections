@@ -31,3 +31,12 @@ in order to successfully make all changes you want to make. You may be unsure
 on how well a new feature of your project will work, and decide to make a new
 branch in which you would commit several changes, which didn't affect the
 original version until you were ready to merge the changes in.
+
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+If you are about to be offline or without internet access for a while but
+still want to work on your project, for example if you're about to get on a
+plane or a train etc, then its useful to still have access to the last known
+status of the online repository.
