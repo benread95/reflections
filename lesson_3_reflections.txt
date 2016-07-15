@@ -57,3 +57,16 @@ or if they didn't live/work near each other. It could be easier to get copies
 of a project though, although cloning a repository and checking out master
 isn't too difficult and time consuming, emailing or otherwise sending a zip
 file of the whole project could be easier or faster.
+
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+You would more likely work in a different branch when developing a new feature
+or change that would possibly take longer than one commit, and when multiple
+people would be working on the project at the same time. If each person was
+working on a different part of the project, then they could each have a
+separate branch o simplify things. However, it can be slightly confusing when
+pull requests come in and theres conflicts. This means it can sometimes take a
+little while to merge all the code together, leading some people to prefer
+working in the master branch.
